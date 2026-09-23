@@ -1,62 +1,72 @@
-# Actividad final del primer corte - Sistemas Inteligentes I
-
-## Antes de comenzar
-
-Para trabajar con los notebooks se recomienda:
-
-- Instalar `uv`, que administrará Python, el entorno del proyecto y sus dependencias.
-- Instalar **Visual Studio Code** con las extensiones **Python** y **Jupyter** de Microsoft, o utilizar Jupyter Notebook/JupyterLab.
-- Los notebooks utilizan principalmente librerías estándar de Python; `matplotlib` se emplea para las gráficas.
+# Actividad final del primer corte — Sistemas Inteligentes I
 
 ## Integrantes
 
-1. Ana Isabela Suarez
-2. Santiago Silva
-3. Juan Diego Henao
+1.Santiago Silva Guarnizo
+2. Ana Isabella Suárez Cardona
+3. Juan Diego Henao Quintero
 
-## Presentación
+## Descripción
 
-En esta actividad se desarrollan y analizan técnicas de búsqueda utilizadas en Inteligencia Artificial. Se estudian algoritmos de búsqueda no informada, búsqueda informada y búsqueda adversarial, implementando cada método, ejecutando experimentos y comparando sus resultados.
+Este repositorio reúne los talleres de búsqueda desarrollados para la actividad final del primer corte de Sistemas Inteligentes I. Cada solución contiene la implementación, las respuestas conceptuales en celdas Markdown, los experimentos y los resultados obtenidos al ejecutar las celdas en orden.
 
-La entrega corresponde al desarrollo de los talleres propuestos al final de los notebooks trabajados durante las clases. Las respuestas conceptuales deben aparecer en celdas Markdown y el código debe conservarse ejecutado junto con sus resultados.
+La actividad solicita cubrir los siguientes temas:
+
+1. Búsqueda no informada: BFS y DFS.
+2. Búsqueda informada.
+3. Búsqueda adversarial: Minimax.
 
 ## Notebooks incluidos
 
-| Notebook | Tema |
-| --- | --- |
-| `Resolucion_Problemas_Busqueda_NoInformada.ipynb` | Búsqueda no informada: BFS y DFS |
-| `Resolucion_Problemas_Busqueda_Informada.ipynb` | Búsqueda informada: Costo Uniforme, A* y Beam Search |
-| `Minimax.ipynb` | Búsqueda adversarial: algoritmo Minimax |
-| `Poda_Alfa_Beta.ipynb` | Búsqueda adversarial: poda Alfa-Beta |
+| Taller | Archivo de solución | Material de apoyo |
+| --- | --- | --- |
+| Búsqueda no informada: BFS y DFS | `1_Busqueda_no_informad_BFS_DFS/Solucion.ipynb` | `1_Busqueda_no_informad_BFS_DFS/Resolucion_Problemas_Busqueda_NoInformada.ipynb` |
+| Búsqueda informada | `2_Busqueda_informada/Solucion.ipynb` | `2_Busqueda_informada/Resolucion_Problemas_Busqueda_Informada.ipynb` |
+| Búsqueda adversarial: Minimax | `3_Busqueda_adversarial_Minimax/Solucion.ipynb` | `3_Busqueda_adversarial_Minimax/Resolucion_Minimax.ipynb` |
 
-## Cómo ejecutar el trabajo
+> **Importante:** el taller de poda Alfa–Beta es obligatorio para la entrega, pero no se tomara en cuenta dado que no contiene taller, dejamos esta nota como recordatorio. 
 
-1. Clonar el repositorio y ubicarse en su carpeta:
+## Requisitos
 
-	```bash
-	git clone https://github.com/diego-juan3112/actividad-final-primer-corte-sistemas-inteligentes-1.git
-	cd actividad-final-primer-corte-sistemas-inteligentes-1
-	```
+- Git.
+- [uv](https://docs.astral.sh/uv/) instalado. `uv` descarga Python, crea el entorno y administra las dependencias.
+- Visual Studio Code con las extensiones **Python** y **Jupyter**, o Jupyter Notebook/JupyterLab.
 
-2. Instalar Python 3.11 y crear el entorno del proyecto con esa versión:
+Las dependencias están definidas en `requirements.txt`: `jupyter`, `ipykernel` y `matplotlib`.
 
-	```bash
-	uv python install 3.11
-	uv venv --python 3.11
-	```
+## Ejecución en Linux
 
-3. Activar el entorno en Windows PowerShell:
+```bash
+git clone https://github.com/diego-juan3112/actividad-final-primer-corte-sistemas-inteligentes-1.git
+cd actividad-final-primer-corte-sistemas-inteligentes-1
+uv venv --python 3.11
+uv pip install -r requirements.txt
+uv run jupyter lab
+```
 
-	```powershell
-	.\.venv\Scripts\Activate.ps1
-	```
+## Ejecución en Windows (PowerShell)
 
-4. Instalar las dependencias del repositorio:
+```powershell
+git clone https://github.com/diego-juan3112/actividad-final-primer-corte-sistemas-inteligentes-1.git
+cd actividad-final-primer-corte-sistemas-inteligentes-1
+uv venv --python 3.11
+uv pip install -r requirements.txt
+uv run jupyter lab
+```
 
-	```bash
-	uv pip install -r requirements.txt
-	```
+Luego abra los notebooks de solución, seleccione el intérprete o kernel de `.venv` y ejecute todas las celdas en orden. Verifique que las salidas y gráficas queden guardadas antes de realizar la entrega.
 
-5. Abrir los cuatro archivos `.ipynb` en VS Code y seleccionar el kernel `.venv (Python 3.11)`.
-6. Ejecutar todas las celdas en orden.
-7. Verificar que los notebooks no presenten errores y que conserven las salidas y gráficas obtenidas.
+## Uso de IA generativa
+
+| Herramienta | Propósito | Parte en la que se empleó | Responsable |
+| --- | --- | --- | --- |
+| OpenAI Codex | Organización y redacción del README | Documentación del repositorio; no se declara uso en la implementación de los algoritmos. | Ana Isa |
+
+## Lista de verificación de entrega
+
+- [ ] El repositorio es accesible mediante el enlace entregado.
+- [ ] Están incluidos y ejecutados los tres notebooks requeridos.
+- [ ] Las respuestas conceptuales están en celdas Markdown.
+- [ ] El código, resultados y gráficas están visibles en los notebooks.
+- [ ] El README está actualizado y corresponde a la versión definitiva.
+- [ ] La entrega se realiza antes del viernes 25 de septiembre de 2026 a las 6:00 p. m.
