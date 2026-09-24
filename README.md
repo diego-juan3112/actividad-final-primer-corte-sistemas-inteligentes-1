@@ -61,6 +61,7 @@ Luego abra los notebooks de solución, seleccione el intérprete o kernel de `.v
 | Herramienta | Propósito | Parte en la que se empleó | Responsable |
 | --- | --- | --- | --- |
 | OpenAI Codex | Organización y redacción del README | Documentación del repositorio; no se declara uso en la implementación de los algoritmos. | Ana Isa |
+|Github Copilot | apoyo para revisar la estructura del taller, sugerir casos de prueba y detectar inconsistencias durante la ejecución del notebook. | organización inicial de las celdas, revisión de pruebas y apoyo en la redacción de algunas explicaciones. | Santiago Silva |
 
 ## Lista de verificación de entrega
 
