@@ -62,12 +62,13 @@ Luego abra los notebooks de solución, seleccione el intérprete o kernel de `.v
 | --- | --- | --- | --- |
 | OpenAI Codex | Organización y redacción del README | Documentación del repositorio; no se declara uso en la implementación de los algoritmos. | Ana Isa |
 |Github Copilot | apoyo para revisar la estructura del taller, sugerir casos de prueba y detectar inconsistencias durante la ejecución del notebook. | organización inicial de las celdas, revisión de pruebas y apoyo en la redacción de algunas explicaciones. | Santiago Silva |
+| Claude Code (Claude Opus 5.5) | Apoyo en la escritura activa de codigo, generación de comparativas, gráficas y redacción de análisis. | Visualizacion de caminos, resolucion de errores en la sintaxis en la elación de las busquedas y en los analisis finales. | Juan Diego Henao |
 
 ## Lista de verificación de entrega
 
-- [ ] El repositorio es accesible mediante el enlace entregado.
-- [ ] Están incluidos y ejecutados los tres notebooks requeridos.
-- [ ] Las respuestas conceptuales están en celdas Markdown.
-- [ ] El código, resultados y gráficas están visibles en los notebooks.
-- [ ] El README está actualizado y corresponde a la versión definitiva.
+- [✅] El repositorio es accesible mediante el enlace entregado.
+- [✅] Están incluidos y ejecutados los tres notebooks requeridos.
+- [✅] Las respuestas conceptuales están en celdas Markdown.
+- [✅] El código, resultados y gráficas están visibles en los notebooks.
+- [✅] El README está actualizado y corresponde a la versión definitiva.
 - [ ] La entrega se realiza antes del viernes 25 de septiembre de 2026 a las 6:00 p. m.
